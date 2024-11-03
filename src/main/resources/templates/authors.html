@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Recherche d'Auteur</title>
+</head>
+<body>
+    <h2>Rechercher un Auteur</h2>
+    <form action="#" th:action="@{/authors}" method="get">
+        <label for="authorId">ID de l'auteur:</label>
+        <input type="text" id="authorId" name="authorId">
+        <button type="submit">Rechercher</button>
+    </form>
+
+    
+</body>
+</html>
